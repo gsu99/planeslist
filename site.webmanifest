@@ -1,0 +1,23 @@
+{
+  "name": "Planes List",
+  "short_name": "PL",
+  "icons": [
+    {
+      "src": "Images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "Images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "theme_color": "#0000ff",
+  "background_color": "#b0c4de",
+  "description": "Explore an extensive collection of over 100 aircraft in our comprehensive plane list. Checkboxes accompany each aircraft, allowing you to mark the ones you've encountered, creating a personalized catalog of your aviation experiences. Dive into the world of planes, track your sightings, and immerse yourself in the vast realm of aviation with our interactive checklist.",
+  "orientation": "portrait",
+  "scope": "/app/"
+}

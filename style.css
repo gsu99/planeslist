@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: lightsteelblue;
+}
+
+
+html {
+    scrollbar-width: normal;
+    scrollbar-color: #777 #555;
+}
+
+html::-webkit-scrollbar {
+    width: 11px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: aqua;
+    border-radius: 45px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #00abab;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: darkslategray;
+    border-radius: 5px;
+}
+
+
+.title {
+    font-family: 'Lemon Milk';
+    letter-spacing: -1px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.title h1{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.60);
+}
+
+.subtitle{
+    color: blue;
+    text-align: center;
+}
+
+.subtitle h1 {
+    margin-top: 25px;
+}
+
+.planes{
+    padding: 6px;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-top: 5px;
+    margin-right: 6px;
+}
+
+body { 
+    background: rgb(39, 39, 39);
+}
+
+
+.blue-text {
+    color: blue;
+    margin-right: 0px;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.orange-text {
+    color: darkorange;
+}
+
+.ATR {
+    color: #EB3300;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.red-text {
+    color: red;
+}
+
+.darkblue-text {
+    color: darkblue;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.black-text {
+    color: black;
+}
+
+.footer {
+    font-family: 'Arial Rounded MT';
+    font-size: 14px;
+    color: black;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.modal-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+.modal {
+    background: #fff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 45%;
+    max-height: 80%;
+}
+
+.modal h2 {
+    font-size: 2em;
+    color: black;
+    background-color: white;
+}
+
+.modal p {
+    font-size: 1.2em;
+    color: black;
+    background-color: white;
+}
+
+.modal button {
+    margin-top: 20px;
+    padding: 15px 120px;
+    font-size: 1.2em;
+    background: #007bff;
+    color: white;
+    border: 3px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.5s;
+    transition-duration: 0.15s;
+}
+
+.modal button:hover {
+    background: darkblue;
+    transform: scale(1.05);
+}
+
+body.modal-open {
+  overflow-y: hidden;
+}
