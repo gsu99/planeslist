@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'Lemon Milk';
-    src: url('Fonts/LemonMilk.woff2') format('woff2'),
-         url('Fonts/LemonMilk.woff') format('woff'),
-         url('Fonts/LemonMilk.otf') format('opentype');
+    src: url('C:/Users/user/Desktop/code/planeslist/Fonts/LemonMilk.woff2') format('woff2'),
+         url('C:/Users/user/Desktop/code/planeslist/Fonts/LemonMilk.woff') format('woff'),
+         url('C:/Users/user/Desktop/code/planeslist/Fonts/LemonMilk.otf') format('opentype');
 }
 
 @font-face {
