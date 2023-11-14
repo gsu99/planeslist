@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Lemon Milk';
+    src: url('LemonMilk.woff2') format('woff2'),
+         url('LemonMilk.woff') format('woff'),
+         url('LemonMilk.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Arial Rounded MT';
+    src: url('ArialRoundedMT.woff2') format('woff2'),
+         url('ArialRoundedMT.woff') format('woff'),
+         url('ArialRoundedMT.otf') format('opentype');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -39,6 +53,39 @@ html::-webkit-scrollbar-track {
 
 .title h1{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.60);
+}
+
+
+.fr24 {
+    position: fixed;
+    bottom: -10px;
+    right: 5px;
+    margin-top: 718px;
+    margin-left: 1400px;
+    margin-bottom: 12px;
+    font-size: 14px;
+    white-space: nowrap; 
+    font-weight: bold;
+}
+
+#fr24img {
+    max-height: 100%;
+    width: 20px;
+    margin-right: 2px;
+    margin-bottom: -5px;
+}
+
+#fr24com {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+#fr24com:visited {
+    color: #800080;
+}
+
+#fr24com:hover {
+    color: blueviolet;
 }
 
 .subtitle{
@@ -169,6 +216,10 @@ body {
 .modal button:hover {
     background: darkblue;
     transform: scale(1.05);
+}
+
+.modal button:active {
+    transform: scale(0.95);
 }
 
 body.modal-open {
