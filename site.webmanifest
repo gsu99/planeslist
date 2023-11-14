@@ -1,0 +1,46 @@
+{
+  "name": "Planes List",
+  "short_name": "Planes",
+  "description": "Explore an extensive collection of over 100 aircrafts in our comprehensive plane list.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#b0c4de",
+  "theme_color": "#0000ff",
+  "icons": [
+    {
+      "src": "Images/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "Images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "Images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "Images/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Planes List",
+      "description": "Explore and track different aircrafts.",
+      "url": "index.html",
+      "icons": [
+        {
+          "src": "Images/favicon64.png",
+          "sizes": "64x64",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "splash_pages": null
+}
