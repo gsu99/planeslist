@@ -1,8 +1,10 @@
+@import url('https://fonts.cdnfonts.com/css/lemonmilk');
+
 @font-face {
     font-family: 'Arial Rounded MT';
-    src: url('Fonts/ArialRoundedMT.woff2') format('woff2'),
-         url('Fonts/ArialRoundedMT.woff') format('woff'),
-         url('Fonts/ArialRoundedMT.otf') format('opentype');
+    src: url('C:/Users/user/Desktop/code/planeslist/Fonts/ArialRoundedMT.woff2') format('woff2'),
+         url('C:/Users/user/Desktop/code/planeslist/Fonts/ArialRoundedMT.woff') format('woff'),
+         url('C:/Users/user/Desktop/code/planeslist/Fonts/ArialRoundedMT.otf') format('opentype');
 }
 
 *{
