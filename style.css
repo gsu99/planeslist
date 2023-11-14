@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Lemon Milk';
-    src: url('LemonMilk.woff2') format('woff2'),
-         url('LemonMilk.woff') format('woff'),
-         url('LemonMilk.otf') format('opentype');
+    src: url('Fonts/LemonMilk.woff2') format('woff2'),
+         url('Fonts/LemonMilk.woff') format('woff'),
+         url('Fonts/LemonMilk.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Arial Rounded MT';
-    src: url('ArialRoundedMT.woff2') format('woff2'),
-         url('ArialRoundedMT.woff') format('woff'),
-         url('ArialRoundedMT.otf') format('opentype');
+    src: url('Fonts/ArialRoundedMT.woff2') format('woff2'),
+         url('Fonts/ArialRoundedMT.woff') format('woff'),
+         url('Fonts/ArialRoundedMT.otf') format('opentype');
 }
 
 *{
@@ -44,7 +44,7 @@ html::-webkit-scrollbar-track {
 
 
 .title {
-    font-family: 'Lemon Milk';
+    font-family: 'Lemon Milk', Arial, sans-serif;
     letter-spacing: -1px;
     margin-top: 35px;
     text-align: center;
