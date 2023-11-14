@@ -1,11 +1,4 @@
 @font-face {
-    font-family: 'Lemon Milk';
-    src: url('C:/Users/user/Desktop/code/planeslist/Fonts/LemonMilk.woff2') format('woff2'),
-         url('C:/Users/user/Desktop/code/planeslist/Fonts/LemonMilk.woff') format('woff'),
-         url('C:/Users/user/Desktop/code/planeslist/Fonts/LemonMilk.otf') format('opentype');
-}
-
-@font-face {
     font-family: 'Arial Rounded MT';
     src: url('Fonts/ArialRoundedMT.woff2') format('woff2'),
          url('Fonts/ArialRoundedMT.woff') format('woff'),
