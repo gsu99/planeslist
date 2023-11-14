@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js" type="text/javascript"></script>
 
-    <meta name="description" content="Explore an extensive collection of over 100 aircrafts in our comprehensive planes list. Checkboxes accompany each aircraft, allowing you to mark the ones you've encountered, creating a personalized catalog of your aviation experiences. Dive into the world of planes, track your sightings, and immerse yourself in the vast realm of aviation with our interactive checklist. Built with HTML, CSS and Javascript."
+    <meta name="description" content="Explore an extensive collection of over 100 aircraft in our comprehensive plane list. Checkboxes accompany each aircraft, allowing you to mark the ones you've encountered, creating a personalized catalog of your aviation experiences. Dive into the world of planes, track your sightings, and immerse yourself in the vast realm of aviation with our interactive checklist. Built with HTML, CSS and Javascript."
     />
     <meta name="keywords" content="planes list, list, planes, javascript, html, css, planeslist, listofplanes," />
 
@@ -16,6 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+
 </head>
 <body>
     <body onload="openModal()">
@@ -23,6 +24,10 @@
 
             <div class="title">
                 <h1>Tick The Planes You Have Seen</h1>
+            </div>
+
+            <div class="fr24">
+                <h4>The List is imported from <a id="fr24com" target="_blank" href="https://www.flightradar24.com"><img id="fr24img" src="Images/fr24.png">flightradar24</a></h4>
             </div>
 
             <div class="subtitle">
@@ -33,14 +38,13 @@
 
             <div class="planes" id="mainContent">
 
-                <div>
                     <h1 style="font-size: 21px;"><span class="blue-text">Airbus</span> A220 <span class="orange-text">Family</span></h1>
                     <h2><input type="checkbox" id="myCheckbox1">Airbus A220-100</h2>
                     <h2><input type="checkbox" id="myCheckbox2">Airbus A220-300</h2>
 
-                <font color="lightblue">
-                    <span>.</span>
-                </font>
+                    <font color="lightblue">
+                        <span>.</span>
+                    </font>
 
                 <font color="white">
                     <h1 style="font-size: 21px;"><span class="blue-text">Airbus</span> A300 <span class="orange-text">Family</span></h1>
@@ -48,106 +52,113 @@
                     <h2><input type="checkbox" id="myCheckbox4">Airbus A300-600</h2>
                     <h2><input type="checkbox" id="myCheckbox5">Airbus A300-600ST <span class="blue-text">Beluga</span></h2>
                     <h2><input type="checkbox" id="myCheckbox6">Airbus A310</h2>
+                </font>
 
-            <font color="lightblue">
-                <span>.</span>
-            </font>
+                    <font color="lightblue">
+                        <span>.</span>
+                    </font>
 
-            <font color="white">
-                <h1 style="font-size: 21px;"><span class="blue-text">Airbus</span> A320 <span class="orange-text">Family</span></h1>
-                <h2><input type="checkbox" id="myCheckbox7">Airbus A318</h2>
-                <h2><input type="checkbox" id="myCheckbox8">Airbus A319</h2>
-                <h2><input type="checkbox" id="myCheckbox9">Airbus A319neo</h2>
-                <h2><input type="checkbox" id="myCheckbox10">Airbus A320</h2>
-                <h2><input type="checkbox" id="myCheckbox11">Airbus A320neo</h2>
-                <h2><input type="checkbox" id="myCheckbox12">Airbus A321</h2>
-                <h2><input type="checkbox" id="myCheckbox13">Airbus A321neo</h2>
+                <font color="white">
+                    <h1 style="font-size: 21px;"><span class="blue-text">Airbus</span> A320 <span class="orange-text">Family</span></h1>
+                    <h2><input type="checkbox" id="myCheckbox7">Airbus A318</h2>
+                    <h2><input type="checkbox" id="myCheckbox8">Airbus A319</h2>
+                    <h2><input type="checkbox" id="myCheckbox9">Airbus A319neo</h2>
+                    <h2><input type="checkbox" id="myCheckbox10">Airbus A320</h2>
+                    <h2><input type="checkbox" id="myCheckbox11">Airbus A320neo</h2>
+                    <h2><input type="checkbox" id="myCheckbox12">Airbus A321</h2>
+                    <h2><input type="checkbox" id="myCheckbox13">Airbus A321neo</h2>
+                </font>
 
-            <font color="lightblue">
-                <span>.</span>
-            </font>
+                    <font color="lightblue">
+                        <span>.</span>
+                    </font>
 
-            <font color="white">
-                <h1 style="font-size: 21px;"><span class="blue-text">Airbus</span> A330 <span class="orange-text">Family</span></h1>
-                <h2><input type="checkbox" id="myCheckbox14">Airbus A330-200</h2>
-                <h2><input type="checkbox" id="myCheckbox15">Airbus A330-300</h2>
-                <h2><input type="checkbox" id="myCheckbox16">Airbus A330-700 <span class="blue-text">Beluga</span> <span class="red-text">XL</span></h2>
-                <h2><input type="checkbox" id="myCheckbox17">Airbus A330-800 Neo</h2>
-                <h2><input type="checkbox" id="myCheckbox18">Airbus A330-900 Neo</h2>
+                <font color="white">
+                    <h1 style="font-size: 21px;"><span class="blue-text">Airbus</span> A330 <span class="orange-text">Family</span></h1>
+                    <h2><input type="checkbox" id="myCheckbox14">Airbus A330-200</h2>
+                    <h2><input type="checkbox" id="myCheckbox15">Airbus A330-300</h2>
+                    <h2><input type="checkbox" id="myCheckbox16">Airbus A330-700 <span class="blue-text">Beluga</span> <span class="red-text">XL</span></h2>
+                    <h2><input type="checkbox" id="myCheckbox17">Airbus A330-800 Neo</h2>
+                    <h2><input type="checkbox" id="myCheckbox18">Airbus A330-900 Neo</h2>
+                </font>
 
-            <font color="lightblue">
-                <span>.</span>
-            </font>
+                    <font color="lightblue">
+                        <span>.</span>
+                    </font>
 
-            <font color="white">
-                <h1 style="font-size: 21px;"><span class="blue-text">Airbus</span> A340 <span class="orange-text">Family</span></h1>
-                <h2><input type="checkbox" id="myCheckbox19">Airbus A340-200</h2>
-                <h2><input type="checkbox" id="myCheckbox20">Airbus A340-300</h2>
-                <h2><input type="checkbox" id="myCheckbox21">Airbus A340-500</h2>
-                <h2><input type="checkbox" id="myCheckbox22">Airbus A340-600</h2>
+                <font color="white">
+                    <h1 style="font-size: 21px;"><span class="blue-text">Airbus</span> A340 <span class="orange-text">Family</span></h1>
+                    <h2><input type="checkbox" id="myCheckbox19">Airbus A340-200</h2>
+                    <h2><input type="checkbox" id="myCheckbox20">Airbus A340-300</h2>
+                    <h2><input type="checkbox" id="myCheckbox21">Airbus A340-500</h2>
+                    <h2><input type="checkbox" id="myCheckbox22">Airbus A340-600</h2>
+                </font>
 
-            <font color="lightblue">
-                <span>.</span>
-            </font>
+                    <font color="lightblue">
+                        <span>.</span>
+                    </font>
 
-            <font color="white">
-                <h1 style="font-size: 21px;"><span class="blue-text">Airbus</span> A350 <span class="orange-text">Family</span></h1>
+                <font color="white">
+                    <h1 style="font-size: 21px;"><span class="blue-text">Airbus</span> A350 <span class="orange-text">Family</span></h1>
+                    <h2><input type="checkbox" id="myCheckbox23">Airbus A350-1000</h2>
+                    <h2><input type="checkbox" id="myCheckbox24">Airbus A350-900</h2>
+                </font>
 
-                <h2><input type="checkbox" id="myCheckbox23">Airbus A350-1000</h2>
-                <h2><input type="checkbox" id="myCheckbox24">Airbus A350-900</h2>
+                <font color="lightblue">
+                    <span>.</span>
+                </font>
 
-            <font color="lightblue">
-                <span>.</span>
-            </font>
+                <font color="white">
+                    <h1 style="font-size: 21px; color: gray;">Other <span class="blue-text">Airbuses</span></h1>
+                    <h2><input type="checkbox" id="myCheckbox25">Airbus A380-800</h2>
+                    <h2><input type="checkbox" id="myCheckbox26">Airbus A400M Atlas</h2>
+                </font>
 
-            <font color="white">
-                <h1 style="font-size: 21px; color: gray;">Other <span class="blue-text">Airbuses</span></h1>
-                <h2><input type="checkbox" id="myCheckbox25">Airbus A380-800</h2>
-                <h2><input type="checkbox" id="myCheckbox26">Airbus A400M Atlas</h2>
-            </div>
 
-            <font color="lightblue">
-                <span>.</span>
+                    <font color="lightblue">
+                        <span>.</span>
+                    </font>
 
 
                 <h1 style="margin-top: 20px;"><span class="blue-text">Anto</span><span class="yellow-text">nov</span></h1>
-
                 <font color="white">
                     <h2><input type="checkbox" id="myCheckbox27">Antonov An-12</h2>
                     <h2><input type="checkbox" id="myCheckbox28">Antonov An-124</h2>
                     <h2><input type="checkbox" id="myCheckbox29">Antonov An-148</h2>
                     <h2><input type="checkbox" id="myCheckbox30">Antonov An-26</h2>
                     <h2><input type="checkbox" id="myCheckbox31">Antonov An-32</h2>
+                </font>
 
                     <font color="lightblue">
                         <span>.</span>
                     </font>
 
-                    <h1 style="margin-top: 20px; color: #EB3300;">ATR</h1>
-                        <font color="white">
-                        <h1 style="font-size: 21px;"><span class="ATR">ATR</span> 42 <span class="orange-text">Family</span></h1>
-                        <h2><input type="checkbox" id="myCheckbox32">ATR 42-300</h2>
-                        <h2><input type="checkbox" id="myCheckbox33">ATR 42-500</h2>
-                        <h2><input type="checkbox" id="myCheckbox34">ATR 42-600</h2>
+                <h1 style="margin-top: 20px; color: #EB3300;">ATR</h1>
+                <font color="white">
+                    <h1 style="font-size: 21px;"><span class="ATR">ATR</span> 42 <span class="orange-text">Family</span></h1>
+                    <h2><input type="checkbox" id="myCheckbox32">ATR 42-300</h2>
+                    <h2><input type="checkbox" id="myCheckbox33">ATR 42-500</h2>
+                    <h2><input type="checkbox" id="myCheckbox34">ATR 42-600</h2>
+                </font>
 
-                        <font color="lightblue">
-                            <span>.</span>
-                        </font>
+                    <font color="lightblue">
+                        <span>.</span>
+                    </font>
 
-                        <h1 style="font-size: 21px;"><span class="ATR">ATR</span> 72 <span class="orange-text">Family</span></h1>
-                        <h2><input type="checkbox" id="myCheckbox35">ATR 72-201/202</h2>
-                        <h2><input type="checkbox" id="myCheckbox36">ATR 72-211/212</h2>
-                        <h2><input type="checkbox" id="myCheckbox37">ATR 72-500</h2>
-                        <h2><input type="checkbox" id="myCheckbox38">ATR 72-600</h2>
+                <h1 style="font-size: 21px;"><span class="ATR">ATR</span> 72 <span class="orange-text">Family</span></h1>
+                    <h2><input type="checkbox" id="myCheckbox35">ATR 72-201/202</h2>
+                    <h2><input type="checkbox" id="myCheckbox36">ATR 72-211/212</h2>
+                    <h2><input type="checkbox" id="myCheckbox37">ATR 72-500</h2>
+                    <h2><input type="checkbox" id="myCheckbox38">ATR 72-600</h2>
 
-                        <font color="lightblue">
-                            <span>.</span>
-                        </font>
+                    <font color="lightblue">
+                        <span>.</span>
+                    </font>
 
-                        <h1 style="margin-top: 20px;"><span class="white-text">Avro</span> <span class="red-text">RJ</span></h1>
-                            <h2><input type="checkbox" id="myCheckbox39">Avro RJ100</h2>
-                            <h2><input type="checkbox" id="myCheckbox40">Avro RJ70</h2>
-                            <h2><input type="checkbox" id="myCheckbox41">Avro RJ85</h2>
+                <h1 style="margin-top: 20px;"><span class="white-text">Avro</span> <span class="red-text">RJ</span></h1>
+                    <h2><input type="checkbox" id="myCheckbox39">Avro RJ100</h2>
+                    <h2><input type="checkbox" id="myCheckbox40">Avro RJ70</h2>
+                    <h2><input type="checkbox" id="myCheckbox41">Avro RJ85</h2>
 
 
                             <font color="lightblue">
@@ -333,9 +344,8 @@
                                 <h2><input type="checkbox" id="myCheckbox117">Sukhoi Superjet 100</h2>
                                 <h2><input type="checkbox" id="myCheckbox118">Swearingen Merlin 3</h2>
                                 <h2><input type="checkbox" id="myCheckbox119">Swearingen Metroliner</h2>
-                            
-                       <!--REMINDER, Write a text in the bottom right corner which says the list is imported from flightradar24 and fr24 logo too-->
-            </div>
+            </div> <!--planes div-->
+
             <div>
                 <footer class="footer">
                     &copy; 2023 GSU
@@ -346,10 +356,11 @@
                 <div class="modal">
                     <h2>Welcome!</h2>
                     <p>Welcome to Planes List, your ultimate catalog of aircraft from around the world! Whether you're an aviation enthusiast, a Traveler, or simply curious about different planes, this is the place to explore and track the aircraft you've encountered. The aircraft list is organized in alphabetical order, categorizing planes according to their manufacturers for easy navigation and reference.</p>
-                    <button onclick="openSite()">Enter</button>
+                    <button id="openModalButton" onclick="openSite()">Enter</button>
                 </div>
             </div>
-        </div>
+
+        </div> <!--contentwrapper div-->
     </body>
     </div>
 </body>
